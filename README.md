@@ -16,6 +16,6 @@ This work is used to predict the diabetes in a patient. The dataset consists of 
   <li>Outcome - Class variable (0 or 1) 268 of 768 are 1, the others are 0</li>
 </ol>
 
-<img src="/img/tr1.png" alt="validation loss" style="max-width: 100%;">
-<img src="/img/tr2.png" alt="validation loss" style="max-width: 100%;">
-<img src="/img/output.png" alt="output" style="max-width: 100%;">
+<img src="tr1.png" alt="validation loss" style="max-width: 100%;">
+<img src="tr2.png" alt="validation loss" style="max-width: 100%;">
+<img src="output.png" alt="output" style="max-width: 100%;">
