@@ -13,7 +13,7 @@ This work is used to predict the diabetes in a patient. The dataset consists of 
   <li>BMI - Body mass index</li>
   <li>DiabetesPedigreeFunction - Diabetes pedigree function</li>
   <li>Age</li>
-  <li>Outcome - Class variable (0 or 1) 268 of 768 are 1, the others are 0</li>
+  <li>Outcome - 0 or 1</li>
 </ol>
 
 <img src="tr1.png" alt="validation loss" style="max-width: 100%;">
