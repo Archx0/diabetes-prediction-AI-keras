@@ -4,8 +4,8 @@ Diabetes prediction using neural network created using keras with tensorflow bac
 #
 This work is used to predict the diabetes in a patient. The dataset consists of 768 entries having 9 features.
 
-<ul>
-  <ol>Pregnancies - Number of times pregnant</li>
+<ol>
+  <li>Pregnancies - Number of times pregnant</li>
     <li>GlucosePlasma - glucose concentration a 2 hours in an oral glucose tolerance test</li>
     <li>BloodPressure - Diastolic blood pressure</li>
     <li>SkinThickness - Triceps skin fold thickness</li>
@@ -14,6 +14,6 @@ This work is used to predict the diabetes in a patient. The dataset consists of 
   <li>DiabetesPedigreeFunction - Diabetes pedigree function</li>
   <li>Age</li>
   <li>Outcome - Class variable (0 or 1) 268 of 768 are 1, the others are 0</li>
-</ul>
+</ol>
 
 
