@@ -97,13 +97,20 @@ plt.show()
 # In[8]:
 model = Sequential()
 
-model.add(layers.Dense(800 , input_dim=8 ,kernel_initializer='random_uniform', input_shape=Input_shape,activation='relu')) # input leyers 
-model.add(layers.Dense(500, activation='relu'))
-model.add(layers.Dense(250, activation='relu'))
+model.add(layers.Dense(1000, input_dim=8, kernel_initializer='random_uniform',
+          input_shape=Input_shape, activation='relu'))  # input leyers
+model.add(layers.Dense(100, activation='relu'))
 model.add(layers.Dense(50, activation='relu'))
-model.add(layers.Dense(1, activation='sigmoid')) 
-model.compile(loss="binary_crossentropy", optimizer="adam", metrics=['accuracy']) # accuracy
-model.fit(x_train, y_train, epochs = 100, batch_size=100, validation_data=(x_test, y_test))
+model.add(layers.Dense(50, activation='relu'))
+model.add(layers.Dense(25, activation='relu'))
+model.add(layers.Dense(10, activation='relu'))
+model.add(layers.Dense(5, activation='relu'))
+model.add(layers.Dense(1, activation='sigmoid'))
+model.compile(loss="binary_crossentropy", optimizer="adam",
+              metrics=['accuracy'])  # accuracy
+model.fit(x_train, y_train, epochs=1000, batch_size=1000,
+          validation_data=(x_test, y_test))
+
 
 output = model.evaluate(x_train,y_train)
 
