@@ -18,4 +18,4 @@ This work is used to predict the diabetes in a patient. The dataset consists of 
 
 <img src="tr1.png" alt="validation loss" style="max-width: 100%;">
 <img src="tr2.png" alt="validation loss" style="max-width: 100%;">
-<img src="output.png" alt="output" style="max-width: 100%;">
+<img src="py.png" alt="output" style="max-width: 100%;">
